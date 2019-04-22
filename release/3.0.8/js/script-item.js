@@ -165,10 +165,6 @@ function editLink(json,blockId,linkId){
 				}
 				ev.preventDefault();
 			}
-			if(ev.keyCode==27){
-				clAdd.a.click();
-				ev.preventDefault();
-			}
 		},
 		f2=function(ev,res,url){
 			var match=res.response.match(/<title.*?>(.*?)\n?<\/title>/),
@@ -404,7 +400,7 @@ function notificationShow(ms,type){
 	var color,h;
 	clearTimeout(window.timeout);
 	switch(type){
-		case 'warning':{color='rgb(245,160,0)';h='Warning';}break;
+		case 'warning':{color='rgb(245,187,0)';h='Warning';}break;
 		case 'error':{color='rgb(224,65,46)';h='Error';}break;
 		case 'message':{color='rgb(97,178,97)';h='Message';}break;
 	}
@@ -595,7 +591,7 @@ function drag(){
 				document.onmousemove=moveBlock;
 				document.onmouseup=upBlock;
 				dropViewer.css({
-					height:'42px'
+					height:'35px'
 				});
 				ev.preventDefault();
 				window.onblur=function(){
@@ -660,7 +656,6 @@ function drag(){
 				'z-index':-10
 			});
 			jsl(config.bodyId+' .block .wrap-block').css('height','');
-			indertPrevLink(dragObject.numBlock[1],dropViewer.a,Number(dragObject.num[1])+1);// добавил чтоб при попытке перетаскивать последний линк в не последнем блоке перетаскиваемая сслка не прыгала 
 			var dragResult=findDroppableLink(ev);
 			if(document.elementFromPoint(ev.clientX,ev.clientY)==jsl('.delete').a||document.elementFromPoint(ev.clientX,ev.clientY)==jsl(config.topNav+' .delete img').a){
 				dragObject.delete=true;
@@ -1262,7 +1257,7 @@ function renderDashboard(json){
 				}
 			},false);
 			inputName.a.addEventListener('keyup',function(ev){
-				if(ev.keyCode==13||ev.keyCode==27){
+				if(ev.keyCode==13){
 					var json=JSON.parse(localStorage.dataBoard);
 					editBlockName(ev,ev.target.value,json);
 					setTimeout(function(){window.stopGo=true;});
@@ -1377,16 +1372,16 @@ function resizeDashboard(json){
 	}
 }
 function resizeColum(body,json){
-	if(body.css('offsetWidth')<Number(json.countColum)*Number(config.columMinWid))
-		jsl('.colum').css({
-			width:body.css('offsetWidth')/Math.round(body.css('offsetWidth')/Number(config.columMinWid))+'px'
-		});
-	else
-		jsl('.colum').css({
-			width:body.css('offsetWidth')/Number(json.countColum)+'px'
-		});
+	//if(body.css('offsetWidth')<Number(json.countColum)*Number(config.columMinWid))
+	//	jsl('.colum').css({
+	//		width:body.css('offsetWidth')/Math.round(body.css('offsetWidth')/Number(config.columMinWid))+'px'
+	//	});
+	//else
+	//	jsl('.colum').css({
+	//		width:body.css('offsetWidth')/Number(json.countColum)+'px'
+	//	});
 	jsl(config.bodyId).css('min-height',window.innerHeight-jsl(config.topNav).css('offsetHeight')-20+'px');
-	jsl(config.bodyId+' .colum').css('min-height',jsl(config.bodyId).css('offsetHeight')+'px');
+	//jsl(config.bodyId+' .colum').css('min-height',jsl(config.bodyId).css('offsetHeight')+'px');
 }
 function auth(that){
 	if(jsl(that).children('input[name="login"]').eq(0).val()==''||jsl(that).children('input[name="password"]').eq(0).val()==''){
@@ -1629,7 +1624,7 @@ function loadHtml(autorized){
 		});
 	}else{
 		jsl(config.topNav).html(config.html.topNav);
-		jsl(config.bodyId).html('<div></div>');
+		//jsl(config.bodyId).html('<div></div>');
 		localStorage.removeItem('dataBoard');
 	}
 }
@@ -1713,7 +1708,7 @@ jsl(function(){
 						});
 					},
 					400:function(){
-						notificationShow('на сервер был послан не валидный json','error');
+						alert('на сервер был послан не валидный json');
 					}
 				})[serverJson.error]();
 			}else{
