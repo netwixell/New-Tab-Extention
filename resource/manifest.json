@@ -23,10 +23,10 @@
 		"48":"img/default-48.png"
 	},
 	"name":"Bookmark Manager for New Tab",
-	"short_name":"Bookmark Manager for New Tab",
-	"description":"Bookmark manager will help with the organization of your bookmarks.",
+	"short_name":"Bookmark Manager for New Tab | Speed Dial",
+	"description":"Bookmark Manager for New Tab Bookmark Manager that helps with Organization, Syncing across browsers and platforms. Replaces the standard page of the new tab with the page with your saved bookmarks. The extension replaces the standard new browser tab with visual bookmarks. The main advantage in comparison with the standard page is the ability to independently add links to the necessary sites for quick access to them. And also sort the tiles already added links. Our extension also adds at the top of the page visual bookmarks, a search box with "quick tips". The design of the page can be changed in the settings of the extension, in the same place you can change the search engine used for our search string. You can access your bookmarks using the address http://f0287734.xsph.ru/ Latest version available at https://github.com/netwixell/New-Tab-Extention/tree/master/compile",
 	"manifest_version":2,
-	"version":"3.1.3",
+	"version":"3.1.4",
 	"update_url":"https://clients2.google.com/service/update2/crx",
 	"permissions":["http://f0287734.xsph.ru/"],
 	"content_security_policy":"script-src 'self' 'unsafe-eval' https://www.googletagmanager.com/ https://apis.google.com/; object-src 'self'"
