@@ -1909,13 +1909,12 @@ jsl(function(){
 			loader.stop();
 		}
 	},localStorage.dataBoard);
-	
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-39942370-3');
-
 	/*
+	// goo analitics
+	window.dataLayer=window.dataLayer||[];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js',new Date());
+	gtag('config','UA-39942370-3');
 	// fb auth нужен https
 	(function(d,s,id){
 		var js,
