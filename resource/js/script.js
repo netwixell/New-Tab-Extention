@@ -1875,6 +1875,7 @@ jsl(function(){
 						localStorage.dataBoard=JSON.stringify(currenJson);
 						location.reload();
 					}else{
+						loadHtml(true);
 						var clientJson=JSON.parse(localStorage.dataBoard);
 						if(Number(serverJson.microtime)>Number(clientJson.microtime)){
 							jsl(config.confirmId+' .message').html(config.html.syncToPc);

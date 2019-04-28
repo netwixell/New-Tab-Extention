@@ -1,3 +1,4 @@
+;'use strict';
 var config={
 	blankId:'#blank',
 	bodyId:'#wrap',
@@ -16,23 +17,23 @@ var config={
 		addLink:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOAQMAAAAlhr+SAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURUdwTP///5+UokMAAAABdFJOUwBA5thmAAAAE0lEQVQI12Ngb2BARv//IBCqFAAS/A0zi/Ht3QAAAABJRU5ErkJggg==',
 	},
 	templaters:{
-		popUpId:'templater/popUpId.tpl',
-		bodyId:'templater/bodyId.tpl',
-		topNavLog:'templater/topNavLog.tpl',
-		topNav:'templater/topNav.tpl',
-		bodyFailedAuth:'templater/bodyFailedAuth.tpl',
-		registration:'templater/registration.tpl',
-		login:'templater/login.tpl',
-		syncToServ:'templater/syncToServ.tpl',
-		syncToPc:'templater/syncToPc.tpl',
-		emptySearch:'templater/emptySearch.tpl',
-		updateButton:'templater/updateButton.tpl',
-		notification:'templater/notification.tpl'
+		popUpId:'popUpId.tpl',
+		bodyId:'bodyId.tpl',
+		topNavLog:'topNavLog.tpl',
+		topNav:'topNav.tpl',
+		bodyFailedAuth:'bodyFailedAuth.tpl',
+		registration:'registration.tpl',
+		login:'login.tpl',
+		syncToServ:'syncToServ.tpl',
+		syncToPc:'syncToPc.tpl',
+		emptySearch:'emptySearch.tpl',
+		updateButton:'updateButton.tpl',
+		notification:'notification.tpl'
 	}
 };
-for(key in config.templaters){
+for(var key in config.templaters){
 	(function(key,value){
-		fetch(value,{
+		fetch('templater/'+value,{
 			cache:'force-cache'
 		}).then(function(response){
 			return response.text();

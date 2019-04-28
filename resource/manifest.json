@@ -26,7 +26,7 @@
 	"short_name":"Bookmark Manager for New Tab | Speed Dial",
 	"description":"Speed-dial for your bookmarks. A convenient express panel for organizing bookmarks will decorate the new page of your browser.",
 	"manifest_version":2,
-	"version":"3.2",
+	"version":"3.2.1",
 	"minimum_chrome_version":"42",
 	"update_url":"https://clients2.google.com/service/update2/crx",
 	"permissions":[
