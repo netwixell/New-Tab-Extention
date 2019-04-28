@@ -1,0 +1,1 @@
+<div class="closest" title="Close notification.">x</div><p><b>${h}</b></p><p>${ms}</p>
