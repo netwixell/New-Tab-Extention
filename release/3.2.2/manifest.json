@@ -11,26 +11,31 @@
 		"default_title":"Save this URL",
 		"default_icon":{
 			"128":"img/default-128.png",
-			"16":"img/default-16.png",
+			"48":"img/default-48.png",
 			"32":"img/default-32.png",
-			"48":"img/default-48.png"
+			"16":"img/default-16.png"
 		}
 	},
 	"icons":{
 		"128":"img/default-128.png",
-		"16":"img/default-16.png",
+		"48":"img/default-48.png",
 		"32":"img/default-32.png",
-		"48":"img/default-48.png"
+		"16":"img/default-16.png"
 	},
+	"omnibox":{
+		"keyword":"aaron"
+	},
+	"permissions":[
+		"http://f0287734.xsph.ru/"
+	],
 	"name":"Bookmark Manager for New Tab",
 	"short_name":"Bookmark Manager for New Tab | Speed Dial",
 	"description":"Speed-dial for your bookmarks. A convenient express panel for organizing bookmarks will decorate the new page of your browser.",
 	"manifest_version":2,
-	"version":"3.2.1",
-	"minimum_chrome_version":"42",
+	"version":"3.2.2",
+	"offline_enabled":true,
+	"minimum_chrome_version":"45",
 	"update_url":"https://clients2.google.com/service/update2/crx",
-	"permissions":[
-		"http://f0287734.xsph.ru/"
-	],
+	"homepage_url":"http://f0287734.xsph.ru/",
 	"content_security_policy":"script-src 'self' 'unsafe-eval' https://www.googletagmanager.com/ https://apis.google.com/; object-src 'self'"
 }
