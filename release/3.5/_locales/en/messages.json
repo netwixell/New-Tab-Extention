@@ -1,0 +1,40 @@
+{
+	"appName": {
+		"message": "Bookmarks Manager for New Tab | Speed Dial"
+	},
+	"appDesc": {
+		"message": "Speed-dial for your bookmarks. A convenient express panel for organizing bookmarks will decorate the new page of your browser."
+	},
+	"appDetail": {
+		"message": "Speed-dial for your bookmarks. A convenient express panel for organizing bookmarks will decorate the new page of your browser. Bookmark Manager for New Tab. Speed-dial for your bookmarks. A convenient express panel for organizing bookmarks will decorate the new page of your browser. Convenient and fast search allows you to quickly find the desired tab. Replaces the standard page of the new tab with the page with your saved bookmarks. The extension replaces the standard new browser tab with visual bookmarks. The main advantage in comparison with the standard page is the ability to independently add links to the necessary sites for quick access to them. And also sort the tiles already added links. Our extension also adds at the top of the page visual bookmarks, a search box with \"quick tips\". The design of the page can be changed in the settings of the extension, in the same place you can change the search engine used for our search string. You can access your bookmarks using the address http://f0287734.xsph.ru/ Latest version available at https://github.com/netwixell/New-Tab-Extention/tree/master/compile"
+	},
+	"option_newtab_blank": {
+		"message": "Blank Page"
+	},
+	"option_newtab_chrome": {
+		"message": "Chrome Default (Google)"
+	},
+	"option_newtab_custom": {
+		"message": "Custom..."
+	},
+	"option_newtab_custom_custom_url": {
+		"message": "Custom URL here"
+	},
+	"option_newtab_papaly": {
+		"message": "Papaly"
+	},
+	"option_newtab_title": {
+		"message": "Select new tab behavior"
+	},
+	"option_search": {
+		"message": "Show Papaly results in search"
+	},
+	"option_title": {
+		"message": "Papaly Options"
+	}
+}
+
+
+
+
+
