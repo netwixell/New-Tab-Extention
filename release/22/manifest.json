@@ -40,4 +40,9 @@
 	"update_url":"https://clients2.google.com/service/update2/crx",
 	"homepage_url":"http://f0287734.xsph.ru/",
 	"content_security_policy":"script-src 'self' 'unsafe-eval' https://www.google-analytics.com/ https://www.googletagmanager.com/ https://apis.google.com/; object-src 'self'"
+
+
+
+
+	
 }
