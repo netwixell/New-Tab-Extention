@@ -1,0 +1,149 @@
+{
+	"appName": {
+		"message":"Менеджер закладок, диспетчер для нової вкладки | Швидкий набір"
+	},
+	"appDesc": {
+		"message":"Менеджер для ваших закладок. Зручна експрес-панель для організації закладок прикрасить нову вкладку вашого браузера."
+	},
+	"transLogin":{
+		"message":"Вхід"
+	},
+	"transLoginErrorEmpty":{
+		"message":"Неправильний логін або пароль. Будь ласка спробуйте ще раз пізніше."
+	},
+	"transEmpty":{
+		"message":"Пусто"
+	},
+	"transError":{
+		"message":"Помилка"
+	},
+	"transSomething":{
+		"message":"Щось пішло не так. Оновлення сторінку."
+	},
+	"transUpdate":{
+		"message":"Оновити"
+	},
+	"transOr":{
+		"message":"або"
+	},
+	"transBadUserName":{
+		"message":"Невірний логін або пароль. Спробуй пізніше."
+	},
+	"transSyncComp":{
+		"message":"На сервері були знайдені більш підходящі дані. Хочете оновити дані на своєму комп'ютері?"
+	},
+	"transSyncServ":{
+		"message":"На вашому комп'ютері знайдено більш релевантні дані. Хочете оновити дані на сервері?"
+	},
+	"transRegTitle":{
+		"message":"Реєстрація"
+	},
+	"transRegBody":{
+		"message":"Цей логін не був знайдений. Щоб скористатися послугою, необхідно прийняти умови."
+	},
+	"transThemeDark":{
+		"message":"Темна"
+	},
+	"transThemeWhite":{
+		"message":"Світла"
+	},
+	"transSearchEngine":{
+		"message":"Пошукова система"
+	},
+	"transFollowCursor":{
+		"message":"Стежити за курсором"
+	},
+	"transLoginout":{
+		"message":"Вийти"
+	},
+	"transAddCategory":{
+		"message":"Додати категорію"
+	},
+	"transOpenNewTab":{
+		"message":"Відкривати в новій вкладці"
+	},
+	"transTheme":{
+		"message":"Тема"
+	},
+	"transCountColumns":{
+		"message":"Кількість колонок"
+	},
+	"transMinWidCol":{
+		"message":"Мінімальна ширина однієї колонки"
+	},
+	"transCloseNotifi":{
+		"message":"Закрити сповіщення."
+	},
+	"transSearchInputPlac":{
+		"message":"Пошук за категоріями, посиланнях, в пошуковій системі"
+	},
+	"transLoginFB":{
+		"message":"Увійти з Facebook"
+	},
+	"transLoginG":{
+		"message":"Увійти з Google"
+	},
+	"transDownload":{
+		"message":"Завантажити розширення в Google Store"
+	},
+	"transReload":{
+		"message":"Перезавантажити"
+	},
+	"transClearSearch":{
+		"message":"Очистити пошук"
+	},
+	"transOption":{
+		"message":"Опції"
+	},
+	"transMenu":{
+		"message":"Меню"
+	},
+	"transChangeColor":{
+		"message":"Змінити колір"
+	},
+	"transEnterUrl":{
+		"message":"Введіть URL-адресу"
+	},
+	"transEnterName":{
+		"message":"Введіть назву"
+	},
+	"transCancel":{
+		"message":"Закрити"
+	},
+	"transEditNameCategory":{
+		"message":"Редагувати назву категорії"
+	},
+	"transOpenAllLink":{
+		"message":"Відкрийте всі посилання"
+	},
+	"transAddLink":{
+		"message":"Додати посилання"
+	},
+	"transTitle":{
+		"message":"Назва"
+	},
+	"transEditThisLink":{
+		"message":"Відредагуйте це посилання"
+	},
+	"transNewBookmark":{
+		"message":"Нова закладка"
+	},
+	"transWelcomeTitle":{
+		"message":"Ласкаво просимо!"
+	},
+	"transWelcomeBody":{
+		"message":"Заповніть форму для реєстрації або авторизації."
+	},
+	"transInputNameCategory":{
+		"message":"Введіть ім'я категорії"
+	},
+	"transInputLogin":{
+		"message":"Введіть логін"
+	},
+	"transInputPassword":{
+		"message":"Введіть пароль"
+	},
+	"transIAccept":{
+		"message":"Я погоджуюсь з <a href='\/'>умовами<\/a> використання сервісу"
+	}
+}
