@@ -144,6 +144,6 @@
 		"message":"Input password"
 	},
 	"transIAccept":{
-		"message":"I agree to <a href='\/' style='color:#2011AE'>the terms<\/a> of service"
+		"message":"I agree to <a href='\/'>the terms<\/a> of service"
 	}
 }

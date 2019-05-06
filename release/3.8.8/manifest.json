@@ -34,7 +34,7 @@
 	"short_name":"__MSG_appName__",
 	"description":"__MSG_appDesc__",
 	"manifest_version":2,
-	"version":"3.8.9",
+	"version":"3.8.8",
 	"default_locale":"en",
 	"offline_enabled":true,
 	"minimum_chrome_version":"45",

@@ -317,23 +317,13 @@ body#white #top-nav .top .left .search-block input{
 	color:rgb(255,255,255);
 	cursor:pointer;
 }
-#top-nav .social a[name="fb"]{
-	padding:12px;
-	border-radius:3px;
-	height:auto;
-	width:auto;
-	float:left;
+#top-nav .social input[name="fb"]{
 	background:rgb(66,103,178);
 	color:rgb(255,255,255);
 	cursor:pointer;
 	margin:10px;
 }
-#top-nav .social a[name="go"]{
-	padding:12px;
-	border-radius:3px;
-	height:auto;
-	width:auto;
-	float:left;
+#top-nav .social input[name="go"]{
 	background:rgb(234,67,53);
 	color:rgb(255,255,255);
 	cursor:pointer;

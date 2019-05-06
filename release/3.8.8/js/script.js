@@ -1626,7 +1626,7 @@ function auth(that){
 									}),
 									lab=jsl('label').createElement({
 										for:'check'
-									}).html(chrome.i18n.getMessage('transIAccept')||'I agree to the <a href="/" style="color:#2011AE">terms</a> of service'),
+									}).html(chrome.i18n.getMessage('transIAccept')||'I agree to the <a href="/">terms</a> of service'),
 									p=jsl('span').createElement(),
 									sdfsd=jsl('div').createElement({style:{margin:'10px'}}).html(message);
 								conditions.append(check).append(lab).append(p);
@@ -1878,19 +1878,29 @@ jsl(function(){
 	jsl(function(ev){
 		mouseShowHandler(ev);
 	},['mousemove']);
+	/*function update_locale() {
+		document.title = chrome.i18n.getMessage('option_title');
+		document.getElementById('option_title').innerHTML = chrome.i18n.getMessage('option_title');
+		document.getElementById('option_newtab_title').innerHTML = chrome.i18n.getMessage('option_newtab_title');
+		document.getElementById('option_newtab_papaly').innerHTML = chrome.i18n.getMessage('option_newtab_papaly');
+		document.getElementById('option_newtab_chrome').innerHTML = chrome.i18n.getMessage('option_newtab_chrome');
+		document.getElementById('option_newtab_blank').innerHTML = chrome.i18n.getMessage('option_newtab_blank');
+		document.getElementById('option_newtab_custom').innerHTML = chrome.i18n.getMessage('option_newtab_custom');
+		document.getElementById('option_search').innerHTML = chrome.i18n.getMessage('option_search');
+		document.getElementById('newtab-custom-url').placeholder = chrome.i18n.getMessage('option_newtab_custom_custom_url');
+	}
+	update_locale();*/
 	jsl(function(ev){
 		if(ev.target.closest('.details')==null){
-			if(jsl('.menu').a!=null){
-				if(jsl('.menu').css('display')=='block'){
-					jsl('.title-block .open-all').css('display','');
-					jsl('.title-block .pencil').css('display','');
-					jsl('.title-block .plus').css('display','');
-					jsl('.link-block .pencil').css('display','');
-					setTimeout(function(){window.stopGo=true;},100);
-				}
-				jsl('.menu').css('display','none');
-				jsl('.summary').removeClass('background').css('color','');
+			if(jsl('.menu').css('display')=='block'){
+				jsl('.title-block .open-all').css('display','');
+				jsl('.title-block .pencil').css('display','');
+				jsl('.title-block .plus').css('display','');
+				jsl('.link-block .pencil').css('display','');
+				setTimeout(function(){window.stopGo=true;},100);
 			}
+			jsl('.menu').css('display','none');
+			jsl('.summary').removeClass('background').css('color','');
 		}
 	},['mouseup']);
 	var ajax=jsl.ajax({
@@ -1942,11 +1952,11 @@ jsl(function(){
 							});
 							jsl(config.topNav).children('.social .fb').eq(0).on('click',function(ev){
 								authFb(this.a);
-								//ev.preventDefault();
+								ev.preventDefault();
 							});
 							jsl(config.topNav).children('.social .go').eq(0).on('click',function(ev){
 								authGo(this.a);
-								//ev.preventDefault();
+								ev.preventDefault();
 							});
 							clearInterval(clear);
 						});
@@ -2012,12 +2022,12 @@ jsl(function(){
 			loader.stop();
 		}
 	},localStorage.dataBoard);
-
+	
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 	gtag('config', 'UA-39942370-3');
-
+	
 	!function(f,b,e,v,n,t,s)
 	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -2026,8 +2036,9 @@ jsl(function(){
 	t.src=v;s=b.getElementsByTagName(e)[0];
 	s.parentNode.insertBefore(t,s)}(window, document,'script',
 	'https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init','260536824745880');
-	fbq('track','PageView');
+	fbq('init', '260536824745880');
+	fbq('track', 'PageView');
+
 	/*
 	// fb auth нужен https
 	(function(d,s,id){
