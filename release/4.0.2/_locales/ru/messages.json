@@ -1,0 +1,152 @@
+{
+	"language":{
+		"message":"ru"
+	},
+	"appName": {
+		"message":"Менеджер закладок, диспетчер для новой вкладки | Быстрый набор"
+	},
+	"appDesc": {
+		"message":"Менеджер для ваших закладок. Удобная экспресс-панель для организации закладок украсит новую вкладку браузера."
+	},
+	"transLogin":{
+		"message":"Вход"
+	},
+	"transLoginErrorEmpty":{
+		"message":"Неправильный логин или пароль. Пожалуйста повторите попытку позже."
+	},
+	"transEmpty":{
+		"message":"Пусто"
+	},
+	"transError":{
+		"message":"Ошибка"
+	},
+	"transSomething":{
+		"message":"Что то пошло не так. Обновите страницу."
+	},
+	"transUpdate":{
+		"message":"Обновить"
+	},
+	"transOr":{
+		"message":"или"
+	},
+	"transBadUserName":{
+		"message":"Не верный логин или пароль. Попробуйте позже."
+	},
+	"transSyncComp":{
+		"message":"На сервере были найдены более подходящие данные. Хотите обновить данные на своем компьютере?"
+	},
+	"transSyncServ":{
+		"message":"На вашем компьютере найдены более релевантные данные. Хотите обновить данные на сервере?"
+	},
+	"transRegTitle":{
+		"message":"Регистрация"
+	},
+	"transRegBody":{
+		"message":"Этот логин не был найден. Чтобы воспользоваться услугой, необходимо принять условия."
+	},
+	"transThemeDark":{
+		"message":"Темная"
+	},
+	"transThemeWhite":{
+		"message":"Светлая"
+	},
+	"transSearchEngine":{
+		"message":"Поисковая система"
+	},
+	"transFollowCursor":{
+		"message":"Следить за курсором"
+	},
+	"transLoginout":{
+		"message":"Выйти"
+	},
+	"transAddCategory":{
+		"message":"Добавить категорию"
+	},
+	"transOpenNewTab":{
+		"message":"Открывать в новой вкладке"
+	},
+	"transTheme":{
+		"message":"Тема"
+	},
+	"transCountColumns":{
+		"message":"Количество колонок"
+	},
+	"transMinWidCol":{
+		"message":"Минимальная ширина одной колонки"
+	},
+	"transCloseNotifi":{
+		"message":"Закрыть уведомление."
+	},
+	"transSearchInputPlac":{
+		"message":"Поиск по категориям, ссылкам, в поисковой системе"
+	},
+	"transLoginFB":{
+		"message":"Войти с Facebook"
+	},
+	"transLoginG":{
+		"message":"Войти с Google"
+	},
+	"transDownload":{
+		"message":"Скачать расширение в Google Store"
+	},
+	"transReload":{
+		"message":"Перезагрузить"
+	},
+	"transClearSearch":{
+		"message":"Очистить поиск"
+	},
+	"transOption":{
+		"message":"Опции"
+	},
+	"transMenu":{
+		"message":"Меню"
+	},
+	"transChangeColor":{
+		"message":"Сменить цвет"
+	},
+	"transEnterUrl":{
+		"message":"Введите URL"
+	},
+	"transEnterName":{
+		"message":"Введите название"
+	},
+	"transCancel":{
+		"message":"Закрыть"
+	},
+	"transEditNameCategory":{
+		"message":"Изменить название категории"
+	},
+	"transOpenAllLink":{
+		"message":"Открыть все ссылки"
+	},
+	"transAddLink":{
+		"message":"Добавить ссылку"
+	},
+	"transTitle":{
+		"message":"Название"
+	},
+	"transEditThisLink":{
+		"message":"Изменить эту ссылку"
+	},
+	"transNewBookmark":{
+		"message":"Новая закладка"
+	},
+	"transWelcomeTitle":{
+		"message":"Добро пожаловать!"
+	},
+	"transWelcomeBody":{
+		"message":"Заполните форму для регистрации или авторизации."
+	},
+	"transInputNameCategory":{
+		"message":"Введите имя категории"
+	},
+	"transInputLogin":{
+		"message":"Введите логин"
+	},
+	"transInputPassword":{
+		"message":"Введите пароль"
+	},
+	"transIAccept":{
+		"message":"Я соглашаюсь с <a href='\/' style='color:#2011AE'>условиями<\/a> использования сервиса"
+	}
+}
