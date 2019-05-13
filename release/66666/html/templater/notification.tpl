@@ -1,1 +1,0 @@
-<div class="closest" title="Close notification." tl="title:transCloseNotifi">x</div><p><b>${h}</b></p><p>${ms}</p>

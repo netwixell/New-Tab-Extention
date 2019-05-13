@@ -1,1 +1,0 @@
-<div class="empty" tl="transEmpty">Empty</div>
