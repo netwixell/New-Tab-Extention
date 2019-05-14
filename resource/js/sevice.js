@@ -1,23 +1,3 @@
-chrome.tabs.onActivated.addListener(function(activeInfo){
-	chrome.tabs.get(activeInfo.tabId,function(tab){
-		if(tab.extData==''){
-			console.log('New Tab');
-			/*chrome.tabs.update(tab.id,{
-				url:chrome.extension.getURL('html/newpage.html')
-			},function(){});*/
-			return;
-		}
-		var asdasd=JSON.parse(tab.extData);
-		if(asdasd.urlForThumbnail=='chrome://newtab/'){
-			console.log('Extend Tab', tab);
-
-			// не грузить проверить подгрузилось ли
-			/* .update(tab.id,{
-				url:chrome.extension.getURL('html/newpage.html')
-			},function(){});*/
-		}
-	});
-});
 window.dataLayer=window.dataLayer||[];
 function gtag(){dataLayer.push(arguments);}
 window['GoogleAnalyticsObject'] = 'ga';
