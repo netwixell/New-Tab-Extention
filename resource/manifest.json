@@ -29,18 +29,18 @@
 		"keyword":"aaron"
 	},
 	"permissions":[
-		"https://logreel.xyz/",
+		"https://addon.logreel.xyz/",
 		"storage"
 	],
 	"name":"Bookmarks Manager for New Tab",
 	"short_name":"__MSG_appName__",
 	"description":"__MSG_appDesc__",
 	"manifest_version":2,
-	"version":"4.4.2",
+	"version":"4.4.3",
 	"default_locale":"en",
 	"offline_enabled":true,
 	"minimum_chrome_version":"45",
 	"update_url":"https://clients2.google.com/service/update2/crx",
-	"homepage_url":"https://logreel.xyz/",
+	"homepage_url":"https://addon.logreel.xyz/",
 	"content_security_policy":"script-src 'self' 'unsafe-eval' https://www.google-analytics.com/ https://www.googletagmanager.com/ https://apis.google.com/; object-src 'self'"
 }

@@ -1,4 +1,4 @@
-<a href="https://logreel.xyz/" tl="title:transLogo" title="Go to logreel.com" style="margin:auto 10px;">
+<a href="https://addon.logreel.xyz/" tl="title:transLogo" title="Go to logreel.com" style="margin:auto 10px;">
 	<img width="43" height="43" tl="alt:transLogo" alt="Go to logreel.com" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArAgMAAACcM5lTAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJUExURf///1pymVlxmDuD2bMAAAA4SURBVCjPYwiFgxAGitgBDKIMIICLPZUINdjYjEjm42QDCaqzQ0MjkdipJLkHOxs5rKjCpk7cAQB94G+DhOxnjgAAAABJRU5ErkJggg==">
 </a>
 <form autocomplete="">
@@ -8,8 +8,8 @@
 </form>
 <b tl="transOr">or</b>
 <span class="social">
-	<a href="https://logreel.xyz/?auth=fb" class="fb" name="fb" tl="title:transLoginFB" title="Login with Facebook">fb</a>
-	<a href="https://logreel.xyz/?auth=go" class="go" name="go" tl="title:transLoginG" title="Login with Google">go</a>
+	<a href="https://addon.logreel.xyz/?auth=fb" class="fb" name="fb" tl="title:transLoginFB" title="Login with Facebook">fb</a>
+	<a href="https://addon.logreel.xyz/?auth=go" class="go" name="go" tl="title:transLoginG" title="Login with Google">go</a>
 </span>
 <hr>
 <a href="https://chrome.google.com/webstore/detail/ffmnhagkabopbjedijdbhhaabdnibpji" target="_blank" tl="title:transDownload" title="Download extension in Google Store" style="margin:auto 10px;">

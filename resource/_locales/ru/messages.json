@@ -9,13 +9,25 @@
 		"message":"Менеджер для ваших закладок. Удобная экспресс-панель для организации закладок украсит новую вкладку браузера."
 	},
 	"transLogo":{
-		"message":"Перейти на сайт logreel.xyz"
+		"message":"Перейти на сайт addon.logreel.xyz"
 	},
 	"transLogin":{
 		"message":"Вход"
 	},
 	"transLoginErrorEmpty":{
 		"message":"Неправильный логин или пароль. Пожалуйста повторите попытку позже."
+	},
+	"transMain":{
+		"message":"Главная"
+	},
+	"transPP":{
+		"message":"Политика конфиденциальности"
+	},
+	"transTU":{
+		"message":"Условия эксплуатации"
+	},
+	"transMS":{
+		"message":"Написать в поддержку"
 	},
 	"transEmpty":{
 		"message":"Пусто"

@@ -9,13 +9,25 @@
 		"message":"Speed-dial for your bookmarks. A convenient express panel for organizing bookmarks will decorate the new page of your browser."
 	},
 	"transLogo":{
-		"message":"Go to logreel.xyz"
+		"message":"Go to addon.logreel.xyz"
 	},
 	"transLogin":{
 		"message":"Login"
 	},
 	"transLoginErrorEmpty":{
 		"message":"Username or password empty. Please try again."
+	},
+	"transMain":{
+		"message":"Main"
+	},
+	"transPP":{
+		"message":"Privacy Policy"
+	},
+	"transTU":{
+		"message":"Terms of Use"
+	},
+	"transMS":{
+		"message":"Mail in support"
 	},
 	"transEmpty":{
 		"message":"Empty"

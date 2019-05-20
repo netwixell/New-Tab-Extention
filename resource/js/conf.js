@@ -9,7 +9,7 @@ var config={
 	confirmId:'#window-confirm',
 	footBar:'#foot-bar',
 	windowMessage:'#window-message',
-	domain:'https://logreel.xyz',
+	domain:'https://addon.logreel.xyz',
 	catchVer:'my-site-cache-v1',
 	html:{
 		errorFavicon:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAASFBMVEVHcExtdrBfaqmBiLpha6lSXaF5grZDT5lOWZ5eaahzfLNsda96grdye7J7g7euuNX////FzeK8xd3w8/rY3u3k6PSYpMj8/f+inH0FAAAAD3RSTlMAiOLs8f1RHwnWvYjsvVByJ79pAAAAkUlEQVQY02WPVxLDIAxEbdNMcVQQcP+bRsBkJpPs3z6VlY7jX3fwyTpnkw/39mc0vXcy8VwknFcHrg0bXzko8JFA1XAwR68gmTFBxQpSHgWW6vI4BMgqcIIs6hEZxE3QsPI3sKTdRNQQ6xpJRotzjRbWUo3dAAatWD1MiQAI7cPukGMh7r3E/HnGP/O557X9j94tfwnWf6UiBQAAAABJRU5ErkJggg==',
