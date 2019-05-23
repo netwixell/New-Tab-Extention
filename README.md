@@ -19,7 +19,7 @@ The main advantage in comparison with the standard page is the ability to indepe
 
 Our extension also adds at the top of the page visual bookmarks, a search box with "quick tips". The design of the page can be changed in the settings of the extension, in the same place you can change the search engine used for our search string.
 
-You can access your bookmarks using the address http://f0287734.xsph.ru/
+You can access your bookmarks using the address https://addon.logreel.xyz/
 Latest version available at https://github.com/netwixell/New-Tab-Extention/tree/master/compile
 
 Диспетчер закладок для новой вкладки.
@@ -35,5 +35,5 @@ Latest version available at https://github.com/netwixell/New-Tab-Extention/tree/
 
 Наше расширение также добавляет в верхней части страницы визуальные закладки, окно поиска с «быстрыми советами». Дизайн страницы может быть изменен в настройках расширения, там же вы можете изменить поисковую систему, используемую для нашей поисковой строки.
 
-Вы можете получить доступ к своим закладкам, используя адрес http://f0287734.xsph.ru/
+Вы можете получить доступ к своим закладкам, используя адрес https://addon.logreel.xyz/
 Последняя версия доступна по адресу https://github.com/netwixell/New-Tab-Extention/tree/master/compile
